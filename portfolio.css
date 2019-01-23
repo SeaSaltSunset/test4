@@ -1,0 +1,110 @@
+body {
+	font-size: 12p6;
+	background-color: #00d2da;
+}
+
+img {
+	width: 80%;
+	height: auto;
+	border-radius: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: groove;
+	border-color: #444;
+}
+.link-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+ 
+}
+
+li {
+  float: left;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Courier", monospace;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #008695;
+}
+.active {
+  background-color: #00846e;
+  color: white;
+}
+
+h1 {
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+#intro { text-align: left;
+	margin-left: 188px;
+}
+ul {	
+	
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+.exp {
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 400px;
+
+}
+
+.work {
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 350px;
+
+}
+
+p {
+	text-align: center;
+	margin-right: 500px;
+	margin-left: 10px;
+}
+
+
+#contact {
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+	line-height: 25px;
+}
+
+
+section {
+	display: flex;
+}
+
+aside {
+	flex: 1 
+}
+
+article {
+	flex: 4
+}
+
+
+
+
